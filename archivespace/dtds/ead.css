@@ -1,0 +1,512 @@
+/* Use Times New Roman for default font */
+$DOCUMENT
+{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+abstract {
+  display: block;
+}
+
+accessrestrict {
+  display: block;
+}
+
+accruals {
+  display: block;
+}
+
+acqinfo {
+  display: block;
+}
+
+add {
+  display: block;
+}
+
+address {
+  display: block;
+}
+
+addressline {
+  display: block;
+}
+
+admininfo {
+  display: block;
+}
+
+altformavail {
+  display: block;
+}
+
+appraisal {
+  display: block;
+}
+
+archdesc {
+  display: block;
+}
+
+archref {
+  display: block;
+}
+
+arrangement {
+  display: block;
+}
+
+author {
+  display: block;
+}
+
+bibliography {
+  display: block;
+}
+
+bibref {
+  display: block;
+}
+
+bibseries {
+  display: block;
+}
+
+bioghist {
+  display: block;
+}
+
+blockquote {
+  display: block;
+}
+
+c {
+  display: block;
+}
+
+c01 {
+  display: block;
+}
+
+c02 {
+  display: block;
+}
+
+c03 {
+  display: block;
+}
+
+c04 {
+  display: block;
+}
+
+c05 {
+  display: block;
+}
+
+c06 {
+  display: block;
+}
+
+c07 {
+  display: block;
+}
+
+c08 {
+  display: block;
+}
+
+c09 {
+  display: block;
+}
+
+c10 {
+  display: block;
+}
+
+c11 {
+  display: block;
+}
+
+c12 {
+  display: block;
+}
+
+change {
+  display: block;
+}
+
+chronitem {
+  display: block;
+}
+
+chronlist {
+  display: block;
+}
+
+container {
+  display: block;
+}
+
+controlaccess {
+  display: block;
+}
+
+corpname {
+  display: block;
+}
+
+creation {
+  display: block;
+}
+
+custodhist {
+  display: block;
+}
+
+dao {
+  display: block;
+}
+
+daodesc {
+  display: block;
+}
+
+daogrp {
+  display: block;
+}
+
+daoloc {
+  display: block;
+}
+
+date {
+  display: block;
+}
+
+defitem {
+  display: block;
+}
+
+did {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+dsc {
+  display: block;
+}
+
+ead {
+  display: block;
+}
+
+eadheader {
+  display: block;
+}
+
+eadid {
+  display: block;
+}
+
+edition {
+  display: block;
+}
+
+editionstmt {
+  display: block;
+}
+
+entry {
+  display: block;
+}
+
+event {
+  display: block;
+}
+
+eventgrp {
+  display: block;
+}
+
+extref {
+  display: block;
+}
+
+extrefloc {
+  display: block;
+}
+
+famname {
+  display: block;
+}
+
+filedesc {
+  display: block;
+}
+
+fileplan {
+  display: block;
+}
+
+frontmatter {
+  display: block;
+}
+
+function {
+  display: block;
+}
+
+genreform {
+  display: block;
+}
+
+geogname {
+  display: block;
+}
+
+head {
+  display: block;
+}
+
+head01 {
+  display: block;
+}
+
+head02 {
+  display: block;
+}
+
+index {
+  display: block;
+}
+
+indexentry {
+  display: block;
+}
+
+item {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+langusage {
+  display: block;
+}
+
+linkgrp {
+  display: block;
+}
+
+list {
+  display: block;
+}
+
+listhead {
+  display: block;
+}
+
+name {
+  display: block;
+}
+
+namegrp {
+  display: block;
+}
+
+note {
+  display: block;
+}
+
+notestmt {
+  display: block;
+}
+
+num {
+  display: block;
+}
+
+occupation {
+  display: block;
+}
+
+odd {
+  display: block;
+}
+
+organization {
+  display: block;
+}
+
+origination {
+  display: block;
+}
+
+otherfindaid {
+  display: block;
+}
+
+p {
+  display: block;
+}
+
+persname {
+  display: block;
+}
+
+physdesc {
+  display: block;
+}
+
+physloc {
+  display: block;
+}
+
+prefercite {
+  display: block;
+}
+
+processinfo {
+  display: block;
+}
+
+profiledesc {
+  display: block;
+}
+
+ptrgrp {
+  display: block;
+}
+
+publicationstmt {
+  display: block;
+}
+
+publisher {
+  display: block;
+}
+
+ref {
+  display: block;
+}
+
+refloc {
+  display: block;
+}
+
+relatedmaterial {
+  display: block;
+}
+
+repository {
+  display: block;
+}
+
+revisiondesc {
+  display: block;
+}
+
+row {
+  display: block;
+}
+
+runner {
+  display: block;
+}
+
+scopecontent {
+  display: block;
+}
+
+separatedmaterial {
+  display: block;
+}
+
+seriesstmt {
+  display: block;
+}
+
+sponsor {
+  display: block;
+}
+
+subject {
+  display: block;
+}
+
+subtitle {
+  display: block;
+}
+
+table {
+  display: block;
+}
+
+tbody {
+  display: block;
+}
+
+tfoot {
+  display: block;
+}
+
+tgroup {
+  display: block;
+}
+
+thead {
+  display: block;
+}
+
+title {
+  display: block;
+}
+
+titlepage {
+  display: block;
+}
+
+titleproper {
+  display: block;
+}
+
+titlestmt {
+  display: block;
+}
+
+unitdate {
+  display: block;
+}
+
+unitid {
+  display: block;
+}
+
+unittitle {
+  display: block;
+}
+
+userestrict {
+  display: block;
+}
+
