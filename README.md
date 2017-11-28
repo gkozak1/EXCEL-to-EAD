@@ -8,14 +8,14 @@ The general process is as follows:
  3. then the index.html prompts the user to enter the bib id for this EAD
  4. The cgi script "convert_excel.cgi" is called
  5. "convert_excel.cgi" does the following:
-    a. checks the variables passed from index.html
-    b. If EXCEL file missing then archivesapce/request_missing.html is called and program stops.
-    c. If the filename is malformed then archivespace/request_badfile.html is called and program stops.
-    d. If the extension is xlsx or xls then archivespace/request_badext.html is called and program stops.
-    e. If the bibid is missing then archivespace/request_badid.html is called and program stops.
-    f. If all of the above tests pass then we contact Voyager LMS system with bibid.
-    g. If the bibid is not found in Voyager then archivespace/request_badid.html is called and program stops.
-    h. Else, we read MARC XML file from Voyager and begin building EAD 
-    i. Next, we read the EXCEL spreadsheet, and add to EAD 
-    j. Finally, we create EAD file, and give user a prompt so they can download the EAD file.
+ 6. checks the variables passed from index.html
+ 7. If EXCEL file missing then archivesapce/request_missing.html is called and program stops.
+ 8. If the filename is malformed then archivespace/request_badfile.html is called and program stops.
+ 9. If the extension is xlsx or xls then archivespace/request_badext.html is called and program stops.
+ 10. If the bibid is missing then archivespace/request_badid.html is called and program stops.
+ 11. If all of the above tests pass then we contact Voyager LMS system with bibid.
+ 12. If the bibid is not found in Voyager then archivespace/request_badid.html is called and program stops.
+ 13. Else, we read MARC XML file from Voyager and begin building EAD.
+ 14. Next, we read the EXCEL spreadsheet, and add to EAD.
+ 15. Finally, we create EAD file, and give user a prompt so they can download the EAD file.
   
