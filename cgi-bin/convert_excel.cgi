@@ -9,7 +9,7 @@
 #|  submitted by a user                    |
 #| and convert it into a EAD XML file      |
 #|-----------------------------------------|
-#| version dated 11/27/17                  |
+#| version dated 12/08/17                  |
 #|-----------------------------------------|
 use strict;
 use warnings;
@@ -2744,7 +2744,7 @@ while ($line2 = <EXCEL>) {
            if ($line2 =~ /<geogname>/) {
                $tab1 = index($line2,"<geogname>",0);
                $tab2 = index($line2,"</geogname>",0);
-               $geogname = substr($line2,($tab1+9),($tab2-($tab1+9)));
+               $geogname = substr($line2,($tab1+10),($tab2-($tab1+10)));
                if ($geogname ne "") {
                    $geogname_flag = 1;
                   }
@@ -3201,11 +3201,11 @@ while ($line2 = <EXCEL>) {
                    $genre_flag = 0;
                   }
                if ($access_flag) {
-                   print OUTPUT qq{       <accessrestrict>$access</accessrestrict> \n};
+                   print OUTPUT qq{       <accessrestrict><p>$access</p></accessrestrict> \n};
                    $access_flag = 0;
                   }
                if ($userest_flag) {
-                   print OUTPUT qq{       <userestrict>$userest</userestrict> \n};
+                   print OUTPUT qq{       <userestrict><p>$userest</p></userestrict> \n};
                    $userest_flag = 0;
                   }
                $c01_flag = 1;
@@ -3594,11 +3594,11 @@ while ($line2 = <EXCEL>) {
                    $genre_flag = 0;
                   }
                if ($access_flag) {
-                   print OUTPUT qq{       <accessrestrict>$access</accessrestrict> \n};
+                   print OUTPUT qq{       <accessrestrict><p>$access</p></accessrestrict> \n};
                    $access_flag = 0;
                   }
                if ($userest_flag) {
-                   print OUTPUT qq{       <userestrict>$userest</userestrict> \n};
+                   print OUTPUT qq{       <userestrict><p>$userest</p></userestrict> \n};
                    $userest_flag = 0;
                   }
                $c02_flag = 1;
@@ -3976,11 +3976,11 @@ while ($line2 = <EXCEL>) {
                    $genre_flag = 0;
                   }
                if ($access_flag) {
-                   print OUTPUT qq{       <accessrestrict>$access</accessrestrict> \n};
+                   print OUTPUT qq{       <accessrestrict><p>$access</p></accessrestrict> \n};
                    $access_flag = 0;
                   }
                if ($userest_flag) {
-                   print OUTPUT qq{       <userestrict>$userest</userestrict> \n};
+                   print OUTPUT qq{       <userestrict><p>$userest</p></userestrict> \n};
                    $userest_flag = 0;
                   }
                $c03_flag = 1;
@@ -4344,11 +4344,11 @@ while ($line2 = <EXCEL>) {
                    $genre_flag = 0;
                   }
                if ($access_flag) {
-                   print OUTPUT qq{       <accessrestrict>$access</accessrestrict> \n};
+                   print OUTPUT qq{       <accessrestrict><p>$access</p></accessrestrict> \n};
                    $access_flag = 0;
                   }
                if ($userest_flag) {
-                   print OUTPUT qq{       <userestrict>$userest</userestrict> \n};
+                   print OUTPUT qq{       <userestrict><p>$userest</p></userestrict> \n};
                    $userest_flag = 0;
                   }
                $c04_flag = 1;
